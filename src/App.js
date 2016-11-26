@@ -14,7 +14,7 @@ class App extends Component {
           <div className='b f3 mt3'>
             Rene Brandel
           </div>
-          <div className='black-50 f6 mt3'>
+          <div className='white-80 f6 mt3'>
             Prague, Czech Republic
           </div>
           <div className='flex justify-center items-center bg-black mt3 pa3'>
@@ -38,10 +38,10 @@ class App extends Component {
               </div>
             </div>
           </div>
-          <div className='tl w-100 b black-70 mt3 ph3 pv2'>
+          <div className='tl w-100 b white-70 mt3 ph3 pv2'>
             Coder's message
           </div>
-          <div className='tl w-100 black-50 ph3 pv1 mb3'>
+          <div className='tl w-100 white ph3 pv1 mb3'>
             I've been coding since 7+ years. I started out as a C# developer but then I discovered the power of the functional programming languages like JavaScript and Python.
           </div>
           <div className='pa3 w-100 flex items-center justify-center pointer white'
