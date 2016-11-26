@@ -11,10 +11,10 @@ class App extends Component {
           style={{width: 300, background: '#333D4C'}}>
           <div>
           </div>
-          <div className='b f3 mt3'>
+          <div className='b f3 mt4'>
             Rene Brandel
           </div>
-          <div className='white-80 f6 mt3'>
+          <div className='white-80 f6 mt2'>
             Prague, Czech Republic
           </div>
           <div className='flex justify-center items-center bg-black mt3 pa3'>
