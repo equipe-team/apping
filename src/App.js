@@ -6,7 +6,10 @@ export default class App extends Component {
   render() {
     return (
       <div className='vh-100 w-100 flex'>
-        <div >
+        <div style={{
+          width: '64px',
+          backgroundColor: '#152233'
+        }}>
           <div>
           photo
           </div>
@@ -28,10 +31,16 @@ export default class App extends Component {
           </div>
         </div>
 
-        <div>
-           <div className='flex'>
-             <div>
-               equipe
+        <div className='w-100'>
+           <div className='flex w-100' style={{
+            height: '42px',
+            backgroundColor: '#213043',
+
+           }}>
+             <div className='white f3 ttu'>
+            
+             Equipe
+               
              </div>
 
               <div className='flex'>
