@@ -4,10 +4,10 @@ export default class ContactCard extends Component {
     render() {
         return (
         <div
-          className='shadow-5 flex justify-start items-center white pa3'
+          className='shadow-5 flex justify-start items-start white pa3 ma2 pointer'
           style={{background: '#213043'}}>
-          <div className='flex flex-column black-40 mr2 items-start'>
-            <div>
+          <div className='flex flex-column gray mr3 items-start'>
+            <div className='f3'>
                 16
             </div>
             <div>
@@ -18,7 +18,7 @@ export default class ContactCard extends Component {
             <div className='f3 b truncate'>
               {this.props.name}
             </div>
-            <div className='f5 truncate mt3'>
+           <div className='f5 truncate mt3'>
               {this.props.lastMessage}
             </div>
           </div>

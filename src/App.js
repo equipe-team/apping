@@ -61,12 +61,16 @@ export default class App extends Component {
              background: '#333D4B'
            }}>
           
-              <div>
+              <div className='flex'>
                 <CardBase>
                   <ScreeningDetail/>
                   <ScreeningDetail/>
                 </CardBase>
-                <PersonCard name={'Rene Brandel'} lastMessage={'Hello, Sir! Pretend that I have a british accent'} />
+                <div className='flex flex-column'>
+                  <PersonCard name={'Rene Brandel'} lastMessage={'Hello, Sir! Pretend that I have a british accent'} />
+                  <PersonCard name={'Rene Brandel'} lastMessage={'Hello, Sir! Pretend that I have a british accent'} />
+                  <PersonCard name={'Rene Brandel'} lastMessage={'Hello, Sir! Pretend that I have a british accent'} />
+                </div>
               </div>
 
               <div>
