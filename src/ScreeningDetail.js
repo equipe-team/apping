@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 export default class ScreeningDetails extends Component {
     render() {
         return (
@@ -9,7 +10,7 @@ export default class ScreeningDetails extends Component {
           <div >
           <img src={this.props.src} className="profilePic"/>
             {this.props.name}
-            <img src={} className="inviteBtn"/>
+            <img src="https://cdn0.iconfinder.com/data/icons/math-business-icon-set/93/1_1-128.png" className="inviteBtn"/>
           </div>
         </div>
         )
