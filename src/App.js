@@ -9,7 +9,7 @@ export default class App extends Component {
     return (
       <div className='vh-100 w-100 flex'>
         <div style={{
-          width: '64px',
+          width: '145px',
           backgroundColor: '#152233'
         }}>
           <div>
@@ -34,8 +34,8 @@ export default class App extends Component {
         </div>
 
         <div className='w-100'>
-           <div className='flex w-100' style={{
-            height: '42px',
+           <div className='flex w-100 items-center justify-between' style={{
+            height: '80px',
             backgroundColor: '#213043',
 
            }}>
@@ -47,7 +47,7 @@ export default class App extends Component {
 
               <div className='flex'>
                 <div>
-                search
+                
                 </div>
 
                 <div>
