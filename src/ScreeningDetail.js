@@ -8,7 +8,8 @@ export default class ScreeningDetails extends Component {
           style={{width: 200, height: 75, background: '#203044'}}>
           <div >
           <img src={this.props.src} className="profilePic"/>
-            Test
+            {this.props.name}
+            <img src={} className="inviteBtn"/>
           </div>
         </div>
         )
