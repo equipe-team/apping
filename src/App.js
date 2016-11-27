@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import PersonCard from './PersonCard'
 import logo from './logo.svg';
 import './App.css';
+import CardBase from './CardBase';
+import ScreeningDetail from './ScreeningDetail';
 
 
 export default class App extends Component {
@@ -72,10 +75,20 @@ export default class App extends Component {
                 </div>
               </div>
            </div>
-
-           <div>
+           <div className='h-100 pa3' style={{
+             background: '#333D4B'
+           }}>
           
-              <div>
+              <div className='flex'>
+                <CardBase>
+                  <ScreeningDetail src={"http://blogs.hellomagazine.com/passporttothestars/5546-jackie.jpg"}/>
+                  <ScreeningDetail/>
+                </CardBase>
+                <div className='flex flex-column'>
+                  <PersonCard name={'Rene Brandel'} lastMessage={'Hello, Sir! Pretend that I have a british accent'} />
+                  <PersonCard name={'Rene Brandel'} lastMessage={'Hello, Sir! Pretend that I have a british accent'} />
+                  <PersonCard name={'Rene Brandel'} lastMessage={'Hello, Sir! Pretend that I have a british accent'} />
+                </div>
               </div>
 
               <div>
