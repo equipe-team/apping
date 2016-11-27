@@ -32,7 +32,7 @@ export default class App extends Component {
         </div>
 
         <div className='w-100'>
-           <div className='flex w-100 items-center' style={{
+           <div className='flex w-100 items-center justify-between' style={{
             height: '42px',
             backgroundColor: '#213043',
 
