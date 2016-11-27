@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PersonCard from './PersonCard'
 import logo from './logo.svg';
 import './App.css';
 import CardBase from './CardBase';
@@ -55,14 +56,16 @@ export default class App extends Component {
                 </div>
               </div>
            </div>
-           <CardBase>
-            
-           </CardBase>
-            <ScreeningDetail/>
-            <ScreeningDetail/>
-           <div>
+           <div className='h-100 pa3' style={{
+             background: '#333D4B'
+           }}>
           
               <div>
+                <CardBase>
+                  <ScreeningDetail/>
+                  <ScreeningDetail/>
+                </CardBase>
+                <PersonCard name={'Rene Brandel'} lastMessage={'Hello, Sir! Pretend that I have a british accent'} />
               </div>
 
               <div>
