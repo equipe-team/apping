@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import CardBase from './CardBase';
+import ScreeningDetail from './ScreeningDetail';
 
 export default class App extends Component {
   render() {
@@ -53,6 +55,10 @@ export default class App extends Component {
                 </div>
               </div>
            </div>
+           <CardBase>
+            <ScreeningDetail/>
+            <ScreeningDetail/>
+           </CardBase>
 
            <div>
           
