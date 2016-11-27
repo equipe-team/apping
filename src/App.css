@@ -32,6 +32,15 @@
 }
 .inviteBtn {
   margin-top: 5px;
+  margin-left: 5px;
   width: 20px;
-  height: 20px; 
+  height: 20px;
+}
+.inviteBtn:hover{
+  cursor: pointer; 
+  cursor: hand;
+}
+
+.personName {
+  padding-left: 20 px;
 }
