@@ -59,7 +59,6 @@ export default class App extends Component {
            <div className='h-100 pa3' style={{
              background: '#333D4B'
            }}>
-          
               <div className='flex'>
                 <CardBase>
                   <ScreeningDetail/>
