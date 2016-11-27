@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import CardBase from './CardBase';
 import ScreeningDetail from './ScreeningDetail';
+import ApplicationCard from './ApplicationCard';
 
 export default class App extends Component {
   render() {
@@ -63,6 +64,9 @@ export default class App extends Component {
                 <CardBase>
                   <ScreeningDetail/>
                   <ScreeningDetail/>
+                </CardBase>
+                <CardBase>
+                  <ApplicationCard />
                 </CardBase>
                 <div className='flex flex-column'>
                   <PersonCard name={'Rene Brandel'} lastMessage={'Hello, Sir! Pretend that I have a british accent'} />
