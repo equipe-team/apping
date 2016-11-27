@@ -56,16 +56,16 @@ export default class App extends Component {
                 </div>
               </div>
            </div>
-           <CardBase>
-            <ScreeningDetail/>
-            <ScreeningDetail/>
-           </CardBase>
 
            <div className='h-100 pa3' style={{
              background: '#333D4B'
            }}>
           
               <div>
+                <CardBase>
+                  <ScreeningDetail/>
+                  <ScreeningDetail/>
+                </CardBase>
                 <PersonCard name={'Rene Brandel'} lastMessage={'Hello, Sir! Pretend that I have a british accent'} />
               </div>
 
