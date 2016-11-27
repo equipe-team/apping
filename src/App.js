@@ -56,10 +56,10 @@ export default class App extends Component {
               </div>
            </div>
            <CardBase>
-            <ScreeningDetail/>
-            <ScreeningDetail/>
+            
            </CardBase>
-
+            <ScreeningDetail/>
+            <ScreeningDetail/>
            <div>
           
               <div>
