@@ -62,7 +62,7 @@ export default class App extends Component {
           
               <div className='flex'>
                 <CardBase>
-                  <ScreeningDetail/>
+                  <ScreeningDetail src={"http://blogs.hellomagazine.com/passporttothestars/5546-jackie.jpg"}/>
                   <ScreeningDetail/>
                 </CardBase>
                 <div className='flex flex-column'>

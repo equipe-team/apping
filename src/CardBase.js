@@ -4,8 +4,8 @@ export default class CardBase extends Component {
     render() {
         return (
         <div
-            className='shadow-5 flex flex-column justify-center items-center white'
-            style={{backgroundColor: '#213043'}}>
+            className='shadow-5 flex flex-column items-center white'
+            style={{backgroundColor: '#333'}}>
         {this.props.children} 
         </div>
         )
