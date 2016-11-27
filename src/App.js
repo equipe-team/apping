@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 import PersonCard from './PersonCard'
 import logo from './logo.svg';
 import './App.css';
+import CardBase from './CardBase';
+import ScreeningDetail from './ScreeningDetail';
 
 export default class App extends Component {
   render() {
     return (
       <div className='vh-100 w-100 flex'>
         <div style={{
-          width: '64px',
+          width: '145px',
           backgroundColor: '#152233'
         }}>
           <div>
@@ -34,7 +36,7 @@ export default class App extends Component {
 
         <div className='w-100'>
            <div className='flex w-100 items-center justify-between' style={{
-            height: '42px',
+            height: '80px',
             backgroundColor: '#213043',
 
            }}>
@@ -46,7 +48,7 @@ export default class App extends Component {
 
               <div className='flex'>
                 <div>
-                search
+                
                 </div>
 
                 <div>
@@ -54,6 +56,10 @@ export default class App extends Component {
                 </div>
               </div>
            </div>
+           <CardBase>
+            <ScreeningDetail/>
+            <ScreeningDetail/>
+           </CardBase>
 
            <div className='h-100 pa3' style={{
              background: '#333D4B'
